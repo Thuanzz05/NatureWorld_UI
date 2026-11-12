@@ -16,6 +16,7 @@ function Header() {
       <nav className="main-nav" aria-label="Điều hướng chính">
         <NavLink to="/" end>Trang chủ</NavLink>
         <NavLink to="/gioi-thieu">Giới thiệu</NavLink>
+        <NavLink to="/en">English</NavLink>
       </nav>
       <a className="header-contact" href="tel:+84969924279">
         Kết nối với NWG <span aria-hidden="true">↗</span>
@@ -155,89 +156,349 @@ function HomePage() {
   );
 }
 
+function EnglishPage() {
+  return (
+    <main className="nwg-en">
+      <section className="nwg-en-sec nwg-en-dark nwg-en-hero">
+        <div className="nwg-en-wrap nwg-en-grid">
+          <div>
+            <div className="nwg-en-eyebrow">About us</div>
+            <h1>Nature World <span>Group</span></h1>
+            <p>
+              Nature World Group (NWG) is a Vietnam-based organization driving sustainable innovation, green technology, and long-term value creation. We connect enterprises, experts, researchers, public agencies, and development partners to bring sustainability goals into action.
+            </p>
+          </div>
+          <div>
+            <img
+              className="nwg-en-img"
+              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1000&q=80"
+              alt="Nature World Group team"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="nwg-en-sec nwg-en-light">
+        <div className="nwg-en-wrap nwg-en-grid nwg-en-reverse">
+          <div className="nwg-en-media">
+            <img
+              className="nwg-en-img flip"
+              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=80"
+              alt="Sustainable environment"
+            />
+          </div>
+          <div>
+            <div className="nwg-en-eyebrow">Purpose</div>
+            <p className="nwg-en-lead">
+              We believe sustainable development requires a balanced approach between economic growth, environmental responsibility, and community well-being.
+            </p>
+            <div className="nwg-en-tags">
+              <span className="nwg-en-tag">Economic growth</span>
+              <span className="nwg-en-tag">Environmental responsibility</span>
+              <span className="nwg-en-tag">Community well-being</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="nwg-en-sec nwg-en-white">
+        <div className="nwg-en-wrap">
+          <div className="nwg-en-cards c2">
+            <div className="nwg-en-card nwg-en-mv-dark">
+              <div className="nwg-en-eyebrow">Mission</div>
+              <h3>From ambition to action</h3>
+              <p>We connect people, knowledge, and resources to help organizations move from sustainability goals to practical implementation.</p>
+            </div>
+            <div className="nwg-en-card nwg-en-mv-light">
+              <div className="nwg-en-eyebrow">Vision</div>
+              <h3>Green growth ecosystem</h3>
+              <p>We aim to build a collaborative ecosystem that supports long-term value creation and sustainable development across Vietnam.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="nwg-en-sec nwg-en-light">
+        <div className="nwg-en-wrap">
+          <div className="nwg-en-head">
+            <div className="nwg-en-eyebrow">Core values</div>
+            <h2>What guides <span>the way we work</span></h2>
+          </div>
+          <div className="nwg-en-cards c4">
+            <div className="nwg-en-card nwg-en-value">
+              <span className="nwg-en-num">01</span>
+              <h3>Sustainability</h3>
+              <p>Balancing long-term economic, environmental, and social impact.</p>
+            </div>
+            <div className="nwg-en-card nwg-en-value">
+              <span className="nwg-en-num">02</span>
+              <h3>Innovation</h3>
+              <p>Finding practical solutions that fit real-world conditions and opportunities.</p>
+            </div>
+            <div className="nwg-en-card nwg-en-value">
+              <span className="nwg-en-num">03</span>
+              <h3>Transparency</h3>
+              <p>Prioritizing clear information, accountability, and measurable outcomes.</p>
+            </div>
+            <div className="nwg-en-card nwg-en-value">
+              <span className="nwg-en-num">04</span>
+              <h3>Responsibility</h3>
+              <p>Aligning decisions with the interests of organizations, communities, and future generations.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="nwg-en-sec nwg-en-dark">
+        <div className="nwg-en-wrap nwg-en-grid">
+          <div>
+            <div className="nwg-en-eyebrow">How we connect</div>
+            <h2>A <span>dynamic network</span> for every goal</h2>
+            <p>NWG operates through an open network model, connecting businesses with specialists, research organizations, technology partners, and development institutions according to the needs of each program.</p>
+            <div className="nwg-en-chips">
+              <span className="nwg-en-chip">Businesses</span>
+              <span className="nwg-en-chip">Experts</span>
+              <span className="nwg-en-chip">Research institutions</span>
+              <span className="nwg-en-chip">Technology partners</span>
+              <span className="nwg-en-chip">Development organizations</span>
+            </div>
+          </div>
+          <div>
+            <img
+              className="nwg-en-img"
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80"
+              alt="Network collaboration"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="nwg-en-sec nwg-en-white">
+        <div className="nwg-en-wrap">
+          <div className="nwg-en-head nwg-en-journey-head">
+            <div className="nwg-en-eyebrow">Journey and activities</div>
+            <h2>How NWG has <span>been taking action</span></h2>
+            <p>NWG participates in and organizes activities focused on green transition, ESG training, expert engagement, and community-driven sustainability initiatives.</p>
+          </div>
+
+          <div className="nwg-en-journey">
+            <article className="nwg-en-journey-item">
+              <div className="nwg-en-journey-no">01</div>
+              <div className="nwg-en-journey-copy">
+                <span className="nwg-en-journey-label">Forums</span>
+                <p>Spaces for dialogue on green transformation and sustainable development, where stakeholders exchange ideas and practical challenges.</p>
+              </div>
+            </article>
+
+            <article className="nwg-en-journey-item">
+              <div className="nwg-en-journey-no">02</div>
+              <div className="nwg-en-journey-copy">
+                <span className="nwg-en-journey-label">ESG training</span>
+                <p>Programs designed to improve organizational capabilities in ESG strategy, implementation, and performance tracking.</p>
+              </div>
+            </article>
+
+            <article className="nwg-en-journey-item">
+              <div className="nwg-en-journey-no">03</div>
+              <div className="nwg-en-journey-copy">
+                <span className="nwg-en-journey-label">Expert connection</span>
+                <p>Matching the right expertise to the right organizational needs, enabling practical collaboration and long-term impact.</p>
+              </div>
+            </article>
+
+            <article className="nwg-en-journey-item">
+              <div className="nwg-en-journey-no">04</div>
+              <div className="nwg-en-journey-copy">
+                <span className="nwg-en-journey-label">Social & environmental initiatives</span>
+                <p>Programs that generate value for communities and the environment while supporting sustainable growth.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className="nwg-en-sec nwg-en-light" style={{ padding: "70px 0" }}>
+        <div className="nwg-en-wrap">
+          <div className="nwg-en-cta">
+            <div>
+              <h2>Let’s collaborate</h2>
+              <p>Whether you are looking for an ESG partner, green-tech collaboration, or a community-driven initiative, we are ready to discuss your goals and needs.</p>
+            </div>
+            <a href="tel:+84969924279" className="nwg-en-btn">Connect with NWG ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
 function AboutPage() {
   return (
-    <main>
-      <section className="about-hero page-gutter">
-        <div className="about-hero-copy">
-          <p className="eyebrow"><span className="eyebrow-mark" /> Về NatureWorld</p>
-          <h1>Kết nối để chuyển đổi xanh tạo tác động <em>thực chất.</em></h1>
-          <p>
-            Là đơn vị tiên phong trong chuyển đổi xanh, NWG kết nối chuyên gia, tổ chức, doanh nghiệp và nhà đầu tư cùng hướng tới phát triển bền vững.
-          </p>
-        </div>
-        <figure className="about-hero-visual">
-          <img src="/images/about-team.png" alt="Chuyên gia và đại biểu tham dự một sự kiện kết nối ESG." />
-          <figcaption>Con người · Chuyên môn · Hợp tác</figcaption>
-        </figure>
-      </section>
-
-      <section className="about-story page-gutter">
-        <div className="story-label"><span>01</span><p>Chúng tôi tin vào</p></div>
-        <div className="story-content">
-          <h2>Phát triển bền vững cần sự tham gia của nhiều bên.</h2>
-          <p>
-            NWG hoạt động theo mô hình mạng lưới mở, thúc đẩy đổi mới và kết nối các giải pháp kinh tế, môi trường, xã hội. Chúng tôi đưa tri thức quốc tế đến gần hơn với nhu cầu thực tế tại Việt Nam.
-          </p>
-          <p>
-            NWG cũng phát triển các chương trình đào tạo và hội thảo về Net Zero, ứng phó biến đổi khí hậu, đồng thời cung cấp nền tảng ESG định hướng phát triển bền vững.
-          </p>
-        </div>
-      </section>
-
-      <section className="values-band">
-        <div className="values-inner page-gutter">
-          <div className="values-heading">
-            <p className="eyebrow eyebrow-light">Nguyên tắc hoạt động</p>
-            <h2>Giá trị cốt lõi</h2>
+    <main className="nwg-about">
+      <section className="nwg-ab-sec nwg-ab-dark nwg-ab-hero">
+        <div className="nwg-ab-wrap nwg-ab-grid">
+          <div>
+            <div className="nwg-ab-eyebrow">Về chúng tôi</div>
+            <h1>Về <br /><span>Nature World Group</span></h1>
+            <p>Nature World Group (NWG) là một tổ chức hoạt động tại Việt Nam trong lĩnh vực công nghệ xanh, đổi mới sáng tạo và phát triển bền vững. NWG kết nối doanh nghiệp, chuyên gia, nhà nghiên cứu, cơ quan công và các đối tác phát triển để đưa mục tiêu bền vững vào những hoạt động cụ thể.</p>
           </div>
-          <div className="value-list">
-            <div className="value-row"><span>01</span><h3>Bền vững</h3><p>Hài hòa tăng trưởng kinh tế, bảo vệ môi trường và công bằng xã hội.</p></div>
-            <div className="value-row"><span>02</span><h3>Đổi mới</h3><p>Ứng dụng công nghệ và tri thức mới để mở rộng khả năng hành động.</p></div>
-            <div className="value-row"><span>03</span><h3>Minh bạch</h3><p>Đặt thông tin rõ ràng và kết quả có thể đánh giá vào trọng tâm.</p></div>
-            <div className="value-row"><span>04</span><h3>Trách nhiệm</h3><p>Gắn cam kết với trách nhiệm đối với cộng đồng và các thế hệ tương lai.</p></div>
+          <div>
+            <img
+              className="nwg-ab-img"
+              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1000&q=80"
+              alt="Đội ngũ Nature World Group"
+            />
           </div>
         </div>
       </section>
 
-      <section className="hub-section page-gutter" id="gtisd">
-        <div className="hub-heading">
-          <p className="eyebrow">Sáng kiến kết nối</p>
-          <h2>GTISD HUB</h2>
-          <p>Một điểm đến cho công nghệ xanh, đổi mới sáng tạo và phát triển bền vững.</p>
-        </div>
-        <div className="hub-steps">
-          <div><span>01</span><p>Xây dựng điểm kết nối đa ngành, đa bên trong hệ sinh thái phát triển bền vững.</p></div>
-          <div><span>02</span><p>Hỗ trợ hệ sinh thái khởi nghiệp, chuyển đổi xanh, chuyển đổi số và tăng trưởng bền vững.</p></div>
-          <div><span>03</span><p>Đóng góp vào mục tiêu Net Zero quốc gia thông qua hợp tác và giải pháp công nghệ.</p></div>
-        </div>
-      </section>
-
-      <section className="technology-story page-gutter" id="cong-nghe">
-        <figure className="technology-story-image">
-          <img src="/images/technology-in-practice.png" alt="Đội ngũ kỹ thuật kiểm tra hệ thống thiết bị tại cơ sở sản xuất." />
-        </figure>
-        <div className="technology-story-copy" id="esg">
-          <p className="eyebrow">Đồng hành cùng doanh nghiệp</p>
-          <h2>Chiến lược ESG đi cùng năng lực triển khai.</h2>
-          <p>NWG tư vấn định hướng, xây dựng lộ trình, đào tạo nhân sự và kết nối giải pháp kỹ thuật để doanh nghiệp đưa ESG vào hoạt động thực tế.</p>
-          <p>Các nội dung hỗ trợ gồm kiểm kê phát thải, lộ trình giảm phát thải, báo cáo ESG, chuyển dịch năng lượng và tài chính khí hậu.</p>
+      <section className="nwg-ab-sec nwg-ab-light">
+        <div className="nwg-ab-wrap nwg-ab-grid nwg-ab-reverse">
+          <div className="nwg-ab-media">
+            <img
+              className="nwg-ab-img flip"
+              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=80"
+              alt="Rừng xanh"
+            />
+          </div>
+          <div>
+            <div className="nwg-ab-eyebrow">Mục đích hoạt động</div>
+            <p className="nwg-ab-lead">Chúng tôi tin rằng phát triển bền vững cần kết hợp hài hòa giữa tăng trưởng kinh tế, trách nhiệm với môi trường và chất lượng sống của cộng đồng.</p>
+            <div className="nwg-ab-tags">
+              <span className="nwg-ab-tag">Tăng trưởng kinh tế</span>
+              <span className="nwg-ab-tag">Trách nhiệm với môi trường</span>
+              <span className="nwg-ab-tag">Chất lượng sống cộng đồng</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="global-network page-gutter" id="he-sinh-thai">
-        <div className="network-number">70<span>+</span></div>
-        <div className="global-network-copy">
-          <p className="eyebrow">Mạng lưới chuyên gia ESG</p>
-          <h2>Hợp tác quốc tế, gắn với bối cảnh Việt Nam.</h2>
-          <p>NWG là đối tác được ủy quyền của The ESG Institute tại Việt Nam và duy trì mạng lưới chuyên gia ESG tại hơn 70 quốc gia.</p>
+      <section className="nwg-ab-sec nwg-ab-white">
+        <div className="nwg-ab-wrap">
+          <div className="nwg-ab-cards c2">
+            <div className="nwg-ab-card nwg-ab-mv-dark">
+              <div className="nwg-ab-eyebrow">Sứ mệnh</div>
+              <h3>Từ mục tiêu đến hành động</h3>
+              <p>Kết nối con người, tri thức và nguồn lực để hỗ trợ tổ chức chuyển từ mục tiêu bền vững sang hành động phù hợp với nhu cầu thực tế.</p>
+            </div>
+            <div className="nwg-ab-card nwg-ab-mv-light">
+              <div className="nwg-ab-eyebrow">Tầm nhìn</div>
+              <h3>Hệ sinh thái phát triển xanh</h3>
+              <p>Góp phần xây dựng một hệ sinh thái phát triển xanh có sự hợp tác rộng mở, năng lực thực thi và khả năng tạo giá trị lâu dài tại Việt Nam.</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="closing-band page-gutter">
-        <p className="eyebrow eyebrow-light">Nature World Group</p>
-        <h2>Cùng kết nối nguồn lực cho phát triển bền vững.</h2>
-        <a className="light-link" href="tel:+84969924279">Liên hệ với chúng tôi <Arrow /></a>
+      <section className="nwg-ab-sec nwg-ab-light">
+        <div className="nwg-ab-wrap">
+          <div className="nwg-ab-head">
+            <div className="nwg-ab-eyebrow">Giá trị cốt lõi</div>
+            <h2>Những điều <span>định hướng</span> cách NWG làm việc</h2>
+          </div>
+          <div className="nwg-ab-cards c4">
+            <div className="nwg-ab-card nwg-ab-value">
+              <span className="nwg-ab-num">01</span>
+              <h3>Bền vững</h3>
+              <p>Cân nhắc tác động dài hạn đến kinh tế, môi trường và xã hội.</p>
+            </div>
+            <div className="nwg-ab-card nwg-ab-value">
+              <span className="nwg-ab-num">02</span>
+              <h3>Đổi mới</h3>
+              <p>Tìm kiếm cách tiếp cận và giải pháp phù hợp với bối cảnh thực tế.</p>
+            </div>
+            <div className="nwg-ab-card nwg-ab-value">
+              <span className="nwg-ab-num">03</span>
+              <h3>Minh bạch</h3>
+              <p>Đề cao thông tin rõ ràng và trách nhiệm trong hợp tác.</p>
+            </div>
+            <div className="nwg-ab-card nwg-ab-value">
+              <span className="nwg-ab-num">04</span>
+              <h3>Trách nhiệm</h3>
+              <p>Hướng đến lợi ích của tổ chức, cộng đồng và môi trường.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="nwg-ab-sec nwg-ab-dark">
+        <div className="nwg-ab-wrap nwg-ab-grid">
+          <div>
+            <div className="nwg-ab-eyebrow">Cách chúng tôi kết nối</div>
+            <h2>Một <span>mạng lưới mở</span> cho từng mục tiêu</h2>
+            <p>NWG hoạt động theo mô hình mạng lưới mở. Tùy mục tiêu của từng chương trình, chúng tôi kết nối doanh nghiệp với chuyên gia, tổ chức nghiên cứu, đối tác công nghệ, tổ chức phát triển và các nguồn lực phù hợp.</p>
+            <div className="nwg-ab-chips">
+              <span className="nwg-ab-chip">Doanh nghiệp</span>
+              <span className="nwg-ab-chip">Chuyên gia</span>
+              <span className="nwg-ab-chip">Tổ chức nghiên cứu</span>
+              <span className="nwg-ab-chip">Đối tác công nghệ</span>
+              <span className="nwg-ab-chip">Tổ chức phát triển</span>
+            </div>
+          </div>
+          <div>
+            <img
+              className="nwg-ab-img"
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80"
+              alt="Mạng lưới hợp tác"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="nwg-ab-sec nwg-ab-white">
+        <div className="nwg-ab-wrap">
+          <div className="nwg-ab-head nwg-ab-journey-head">
+            <div className="nwg-ab-eyebrow">Hành trình và hoạt động</div>
+            <h2>NWG đã <span>cùng hành động</span> như thế nào</h2>
+            <p>NWG tham gia và tổ chức nhiều hoạt động về chuyển đổi xanh, đào tạo ESG, kết nối chuyên gia và các sáng kiến xã hội, môi trường.</p>
+          </div>
+
+          <div className="nwg-ab-journey">
+            <article className="nwg-ab-journey-item">
+              <div className="nwg-ab-journey-no">01</div>
+              <div className="nwg-ab-journey-copy">
+                <span className="nwg-ab-journey-label">Diễn đàn</span>
+                <p>Không gian trao đổi về chuyển đổi xanh và phát triển bền vững, nơi các bên cùng chia sẻ thực tiễn, thách thức và cơ hội.</p>
+              </div>
+            </article>
+
+            <article className="nwg-ab-journey-item">
+              <div className="nwg-ab-journey-no">02</div>
+              <div className="nwg-ab-journey-copy">
+                <span className="nwg-ab-journey-label">Đào tạo ESG</span>
+                <p>Các chương trình đào tạo giúp tổ chức nâng cao năng lực về ESG, từ nhận diện rủi ro đến thiết lập lộ trình thực thi cụ thể.</p>
+              </div>
+            </article>
+
+            <article className="nwg-ab-journey-item">
+              <div className="nwg-ab-journey-no">03</div>
+              <div className="nwg-ab-journey-copy">
+                <span className="nwg-ab-journey-label">Kết nối chuyên gia</span>
+                <p>Đưa chuyên gia đến đúng nhu cầu của doanh nghiệp và tổ chức, tạo ra các chuỗi hợp tác có tính ứng dụng và giá trị dài hạn.</p>
+              </div>
+            </article>
+
+            <article className="nwg-ab-journey-item">
+              <div className="nwg-ab-journey-no">04</div>
+              <div className="nwg-ab-journey-copy">
+                <span className="nwg-ab-journey-label">Sáng kiến xã hội, môi trường</span>
+                <p>Các hoạt động hướng đến lợi ích của cộng đồng và môi trường, góp phần xây dựng một hệ sinh thái phát triển bền vững.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className="nwg-ab-sec nwg-ab-light" style={{ padding: "70px 0" }}>
+        <div className="nwg-ab-wrap">
+          <div className="nwg-ab-cta">
+            <div>
+              <h2>Cùng hợp tác</h2>
+              <p>Bạn đang tìm đối tác để phát triển một sáng kiến ESG, công nghệ xanh hoặc chương trình cộng đồng? Hãy trao đổi với NWG về mục tiêu và nhu cầu của bạn.</p>
+            </div>
+            <a href="tel:+84969924279" className="nwg-ab-btn">Trao đổi với NWG ↗</a>
+          </div>
+        </div>
       </section>
     </main>
   );
@@ -250,6 +511,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/gioi-thieu" element={<AboutPage />} />
+        <Route path="/en" element={<EnglishPage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
       <Footer />
